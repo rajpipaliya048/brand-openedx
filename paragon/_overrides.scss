@@ -1,5 +1,26 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 #root header.site-header-desktop {
-  background: red !important;
+  background: linear-gradient(to bottom, #FF7D5A, #FFA086);
+}
+
+.site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus {
+	background: none;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.site-header-desktop .container-fluid {
+  max-width: 1320px;
+}
+
+.menu .menu-trigger {
+  color: #fff;
+  border: none;
+}
+
+.menu-trigger>svg {
+  display: none;
 }
