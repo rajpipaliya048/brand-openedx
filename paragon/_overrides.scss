@@ -24,3 +24,11 @@
 .menu-trigger>svg {
   display: none;
 }
+
+.nav-link:hover {
+	backround: none;
+}
+
+.main-nav .nav-link:first-child {
+	display: none;
+}
