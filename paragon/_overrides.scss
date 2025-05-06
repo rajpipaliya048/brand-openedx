@@ -47,7 +47,7 @@
 .btn-outline-primary {
   background: none;
   color: #83B0EF;
-  border-radius: 0;
+  border-radius: 2px;
   border: 2px solid #83B0EF;
 }
 
@@ -68,4 +68,10 @@
 .btn-icon.btn-icon-primary:hover {
   background-color: #83B0EF;
   color: #fff;
+}
+
+.btn .btn-brand .btn-block {
+    background: #BFBFBF;
+    border: 2px solid #BFBFBF;
+    border-radius: 2px;
 }
