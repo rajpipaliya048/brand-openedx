@@ -1,15 +1,17 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-#root header.site-header-desktop, .learning-header {
+#root header.site-header-desktop,
+.learning-header {
   background: linear-gradient(to bottom, #FF7D5A, #FFA086);
 }
 
-.site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus {
-	background: none;
+.site-header-desktop .main-nav .nav-link:hover,
+.site-header-desktop .main-nav .nav-link:focus {
+  background: none;
 }
 
 .nav-link {
-	color: #fff;
+  color: #fff;
 }
 
 .site-header-desktop .container-fluid {
@@ -26,27 +28,44 @@
 }
 
 .nav-link:hover {
-	backround: none;
+  background: none;
 }
 
 .main-nav .nav-link:first-child {
-	display: none;
+  display: none;
 }
 
 #dashboard-container {
-	background: #FAF2ED;
-}
-.masquerade-bar {
-	margin-bottom: 0;
+  background: #FAF2ED;
 }
 
-.btn-primary {
-    background: none;
-    color: #83B0EF;
-    border-radius: 0;
-    border: 2px solid #83B0EF;
+.masquerade-bar {
+  margin-bottom: 0;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background: none;
+  color: #83B0EF;
+  border-radius: 0;
+  border: 2px solid #83B0EF;
 }
 
 .page__account-settings {
-	background: #FAF2ED !important;	
+  background: #FAF2ED !important;
+}
+
+.nav-underline-tabs .nav-link.active {
+  color: #83B0EF;
+  border-bottom-color: #83B0EF;
+  font-weight: 400;
+}
+
+.btn-icon.btn-icon-primary {
+  color: #83B0EF;
+}
+
+.btn-icon.btn-icon-primary:hover {
+  background-color: #83B0EF;
+  color: #fff;
 }
