@@ -35,10 +35,6 @@
   display: none;
 }
 
-#dashboard-container {
-  background: #FAF2ED;
-}
-
 .masquerade-bar {
   margin-bottom: 0;
 }
@@ -51,7 +47,7 @@
   border: 2px solid #83B0EF;
 }
 
-.page__account-settings {
+.page__account-settings, #dashboard-container, .profile-page  {
   background: #FAF2ED !important;
 }
 
@@ -85,4 +81,8 @@
 }
 .dashboard-wrapper{
 	padding : 0 71px;
+}
+
+.btn-link {
+	color: #83B0EF !important;
 }
