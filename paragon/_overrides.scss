@@ -103,3 +103,26 @@
 .profile-page-bg-banner {
 	background-color: #BFBFBF !important;
 }
+
+.dropdown-toggle {
+    border: none;
+    color: white;
+}
+	.dropdown-toggle:hover{
+	color: white;
+	background: none;
+	}
+
+.learning-header .container-xl {
+	    gap: 25px;
+    padding: 15px 40px !important;
+    }
+
+.learning-header .logo{
+	height: 40px !important;
+	}
+
+.btn-outline-primary:hover{
+	background: none;
+	color: white;
+}
