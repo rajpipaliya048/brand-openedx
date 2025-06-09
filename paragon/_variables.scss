@@ -1,12 +1,13 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
 $primary: #83B0EF !default;
-$font-family-sans-serif: Montserrat Flex !default;
-$font-family-title: Montserrat Flex;
 
-$monospace: Montserrat Flex !default;
-$serif: Montserrat Flex !default;
+$font-family-sans-serif: 'Montserrat', sans-serif !default;
+$font-family-title: 'Montserrat', sans-serif;
+
+$monospace: 'Montserrat', sans-serif !default;
+$serif: 'Montserrat', sans-serif !default;
 
 // newer variables/standards
-$f-serif: Montserrat Flex !default;
-$f-monospace: Montserrat Flex !default;
+$f-serif: 'Montserrat', sans-serif !default;
+$f-monospace: 'Montserrat', sans-serif !default;
