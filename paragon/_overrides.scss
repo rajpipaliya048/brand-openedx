@@ -120,3 +120,12 @@
 	background: none;
 	color: white;
 }
+
+[data-testid="instructor-toolbar"] > .bg-primary.text-white > .container-xl {
+    background: #BFBFBF;
+    padding: 0 40px;
+}
+
+button.dropdown-toggle.btn.btn-inverse-outline-primary {
+	border: 1px solid #fff;
+}
