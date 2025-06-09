@@ -72,7 +72,7 @@
     border-radius: 2px;
 }
 
-#main-content {
+#main-content, #main {
   background: #FAF2ED !important;
 }
 
@@ -87,7 +87,7 @@
 	color: #83B0EF !important;
 }
 
-#main .profile-page .container-fluid {
+#main .profile-page .container-fluid, .page__account-settings {
     max-width: 1320px;
     margin: 0 auto;
 }
